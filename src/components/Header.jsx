@@ -8,7 +8,7 @@ import conta from '../img/conta.png';
 function Header() {
   return (
     <>
-      <Navbar bg="transparent" data-bs-theme="dark">
+      <Navbar bg="blue" data-bs-theme="dark">
         <Container style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <Navbar.Brand href="#home" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <img

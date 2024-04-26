@@ -1,4 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
+import { Image } from 'src/img/unsplash_Yh0unf5ik0Q.png';
 
 function Slider() {
   return (
@@ -6,7 +7,7 @@ function Slider() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://placehold.co/600x400"
+          src={Image }
           alt="First slide"
           style={{ maxHeight: '400px', objectFit: 'cover' }}
         />
