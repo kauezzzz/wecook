@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Slider from './components/Slider';
 
 import Header from './components/Header'
+import Search from './components/Search'
 
 function ColorSchemesExample() {
   return (
@@ -22,6 +23,8 @@ function ColorSchemesExample() {
       </Navbar>
 
       <Slider />
+
+      <Search />
 
     </>
   );
