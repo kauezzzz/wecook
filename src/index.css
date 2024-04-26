@@ -20,3 +20,11 @@ body {
   align-items: center;
   flex-direction: column;
 }
+
+.header {
+  background-color: #F1EFE7;
+}
+
+.abaixo {
+  background-color: #004AAD;
+}

@@ -4,11 +4,12 @@ import Navbar from 'react-bootstrap/Navbar';
 import weCookLogo from '../img/wecook.png'; // Importe a imagem wecook.png da pasta img
 import coracao from '../img/coracao.png'; 
 import conta from '../img/conta.png'; 
+import styles from '../'
 
 function Header() {
   return (
     <>
-      <Navbar bg="blue" data-bs-theme="dark">
+      <Navbar bg="blue" data-bs-theme="dark" className='header'>
         <Container style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <Navbar.Brand href="#home" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <img
